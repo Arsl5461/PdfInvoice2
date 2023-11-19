@@ -59,8 +59,8 @@ pdf.rect(10, 70, 190, 40);
 pdf.setFontSize(10);
 pdf.setFont('helvetica', 'normal'); // Set font to normal
 pdf.text(15, 40, "212 Arboetrum Way");
-pdf.text(15, 45, "Houston MA 02021");
-pdf.text(15, 50, "508-316-1731");
+pdf.text(15, 45, "Boston MA 02021");
+pdf.text(15, 50, "781-320-2636");
 pdf.setFontSize(16);
 pdf.setFont('helvetica', 'bold');
 pdf.text(90, 50, "INVOICE");

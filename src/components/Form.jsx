@@ -58,8 +58,8 @@ pdf.rect(10, 70, 190, 40);
 // Form Data
 pdf.setFontSize(10);
 pdf.setFont('helvetica', 'normal'); // Set font to normal
-pdf.text(15, 40, "212 Arboetrum Way");
-pdf.text(15, 45, "Boston MA 02021");
+pdf.text(15, 40, "212 Arboretum Way");
+pdf.text(15, 45, "Canton, MA. 02021");
 pdf.text(15, 50, "781-320-2636");
 pdf.setFontSize(16);
 pdf.setFont('helvetica', 'bold');
@@ -72,7 +72,7 @@ pdf.text(150, 25, `Delivery Date: ${deliveryDateRef.current.value  || ""}`);
 pdf.setFontSize(12);
 pdf.setFont('helvetica', 'bold');
 pdf.text(25, 80, "Bill To:");
-pdf.setFontSize(10);
+pdf.setFontSize(12);
 pdf.setFont('helvetica', 'normal');
 pdf.text(40, 80,billToName.current.value);
 addMultilineText(pdf, 40, 85, billingAddressRef.current.value, maxWidth, lineHeight);
@@ -87,7 +87,7 @@ pdf.setFontSize(12);
 pdf.setFont('helvetica', 'bold');
 pdf.text(20, 122, `Order No: ${orderNo.current.value}`);
 pdf.text(20, 132, `Driver Name: ${salesPerson.current.value}`);
-pdf.text(90, 122, `Reference No: ${referenceNo.current.value}`);
+pdf.text(90, 122, `Contract No: ${referenceNo.current.value}`);
 pdf.text(90, 132, `Carrier: ${carrier.current.value}`);
 pdf.text(155, 122, `PO No: ${poNo.current.value}`);
 pdf.rect(10,145, 190, 10);
